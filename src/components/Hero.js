@@ -18,15 +18,11 @@ function Hero() {
 						<div className="underline"></div>
 						<h1>Hi, I'm Robert</h1>
 						<h4>Web developer starter</h4>
-						
-							<Link
-								to="/contact/"
-								className="btn"
-								onClick={() => refreshPage()}
-							>
-								contact me
-							</Link>
-						
+						{/* <BrowserRouter> */}
+						<Link to="/contact/" className="btn" onClick={() => refreshPage()}>
+							contact me
+						</Link>
+						{/* </BrowserRouter> */}
 						<SocialLinks />
 					</div>
 				</article>
