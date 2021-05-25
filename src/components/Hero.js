@@ -18,7 +18,7 @@ function Hero() {
 						<div className="underline"></div>
 						<h1>Hi, I'm Robert</h1>
 						<h4>Web developer starter</h4>
-						/*<BrowserRouter>*/
+						
 							<Link
 								to="/contact/"
 								className="btn"
@@ -26,7 +26,7 @@ function Hero() {
 							>
 								contact me
 							</Link>
-						/*</BrowserRouter>*/
+						
 						<SocialLinks />
 					</div>
 				</article>
