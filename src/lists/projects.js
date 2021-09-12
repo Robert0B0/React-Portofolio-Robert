@@ -36,10 +36,129 @@ import CompInt_tec1 from "../assets/projects/CompoundInterest_tec1.png";
 import CompInt_tec2 from "../assets/projects/CompoundInterest_tec2.png";
 import CompInt_tec3 from "../assets/projects/CompoundInterest_tec3.png";
 import CompInt_tec4 from "../assets/projects/CompoundInterest_tec4.png";
+import RestaurantApp from "../assets/projects/RestaurantApp.png";
+import LandRank from "../assets/projects/LandRank.png";
 
 export const projects = [
 	{
 		id: "1",
+		name: "LandRank",
+		description:
+			"Imagine you're a real estate agent specialized on finding land areas for future customers on which they will build whatever they need on. This is a web application tool for mapping and storing different areas on the map with the necessary data to present to a customer. Built with React.js and ASP.NET.",
+		stack: [
+			{ id: 1, title: "REACT" },
+			{ id: 2, title: "ASP.NET" },
+			{ id: 3, title: "GOOGLE MAPS API" },
+			{ id: 4, title: "OPENCAGE API" },
+			{ id: 5, title: "MATERIAL UI" },
+			{ id: 6, title: "AZURE" },
+			{ id: 7, title: "NETLIFY" },
+		],
+		url: "https://land-rank.netlify.app",
+		github: "https://github.com/Robert0B0/LandRank",
+		image: LandRank,
+		technical: {
+			title: "LandRank – general technical summary:",
+			description: [
+				{
+					id: 1,
+					p: "The front end is built with React javaScript framework. All the interface elements are designed with React components and functionalities are written in javaScript.",
+				},
+				{
+					id: 2,
+					p: "The interface theme is designed with the help of Material-UI component library for React which is made for writing stylized and fast React components that get the job done.",
+				},
+				{
+					id: 3,
+					p: "The core functinality of this web app is the integrated Google Maps API, mainly used for rendering the top view map, functionalities for drawing and placing polygons on the map and retrieve coordinates from set markers",
+				},
+				{
+					id: 4,
+					p: "The OpenCage API is used as a complementary API for retrieving location information from a set marker via reverse geocoding of coordinates to addresses.",
+				},
+				{
+					id: 5,
+					p: "The backend web api is built with ASP.NET platform which is a developer platform made up of tools, programming languages, and libraries for building many different types of applications.",
+				},
+				{
+					id: 6,
+					p: "Entity Framework (EF) Core is a lightweight, extensible, open source and cross-platform version of the popular Entity Framework data access technology that enables working with a database using .NET objects.",
+				},
+			],
+			images: [],
+		},
+	},
+	{
+		id: "2",
+		name: "RichesTraker",
+		description:
+			"Web application designed to store, track, display and predict financial activity based on the user inputted financial behavior. After creating an account or logging form a existing one, users are presented with an always present monetary balance, interactive calendar of financial activity, graph renderings for showing income and outcome evolution. Users can create and keep track of specific interest items like: Monetary records, Savings jars, Financial goals and Investment plans.",
+		stack: [
+			{ id: 1, title: "DJANGO" },
+			{ id: 2, title: "BOOTSTRAP" },
+			{ id: 3, title: "POSTGRESQL" },
+			{ id: 4, title: "DATATABLES" },
+			{ id: 5, title: "FULLCALENDAR" },
+			{ id: 6, title: "ZINKCHART" },
+			{ id: 7, title: "HEROKU" },
+		],
+
+		url: "https://richestracker-personalproject.herokuapp.com/",
+		github: "https://github.com/Robert0B0/RichesTracker",
+		image: richestracker,
+		technical: {
+			title: "RichesTraker – general technical summary:",
+			description: [
+				{
+					id: 1,
+					p: "A web application for storing, tracking and evaluating monetary activities from daily to monthly use. ",
+				},
+				{
+					id: 2,
+					p: "The app is made with Django framework utilizing PostgreSQL database. The project main application, where are the settings for database, debug, hosting settings and static files handling, also works with apps for each specific django model that holds its migrations, specific view functions, forms, templates and urls. ",
+				},
+				{
+					id: 3,
+					p: "A brief description of each app functionality: ",
+				},
+				{
+					id: 4,
+					p: "users app: managing users registrations and login, page authorization handling, host for home page, navbar about and bug-report template pages.",
+				},
+				{
+					id: 5,
+					p: "info app: hosting the calendar focus template and graph illustration template",
+				},
+				{
+					id: 6,
+					p: "goals app: handling, creating and storing other actions for financial goals",
+				},
+				{
+					id: 7,
+					p: "investments app: holding investments plans with their setups and actions",
+				},
+				{
+					id: 8,
+					p: "savings app: having all the savings jars with their specific actions",
+				},
+				{
+					id: 9,
+					p: "records app: the core functionality of the app, storing all the monetary records created by the user and being used by all the complementary apps for different types of illustrations ",
+				},
+				{
+					id: 10,
+					p: "Complementary add-on apps: Bootstrap library, DataTables, FullCalendar, Zingchart. ",
+				},
+				{
+					id: 11,
+					p: "The app is published on heroku hosting service. ",
+				},
+			],
+			images: [],
+		},
+	},
+	{
+		id: "3",
 		name: "Social_lite",
 		description:
 			"Web application where users, after getting registered and logged in, can write posts for any other user to find, read and comment. Using React frontend plus semantic-ui and, as backend, Apollo-Server/Graphql plus MongoDB database.",
@@ -73,7 +192,7 @@ export const projects = [
 				},
 				{
 					id: 4,
-					p: "The front end is built with React and semantic-ui. Firstly a ApolloProvider wrap for the app is set up to link up the server and provide the authorization context for the present user by storing their token in the local storage. Any user after successfully registered and logged in is presented to the home page where it hosts all users posts, their interactions and comments, and the ability to post new post comments with tags. Alongside the home page there is the profile page with the users specific posts and profile editing setttings.",
+					p: "The front end is built with React and semantic-ui. Firstly a ApolloProvider wrap for the app is set up to link up the server and provide the authorization context for the present user by storing their token in the local storage. Any user after successfully registered and logged in is presented to the home page where it hosts all users posts, their interactions and comments, and the ability to post new post comments with tags. Alongside the home page there is the profile page with the users specific posts and profile editing settings.",
 				},
 				{
 					id: 5,
@@ -89,85 +208,12 @@ export const projects = [
 			],
 		},
 	},
-	{
-		id: "2",
-		name: "RichesTraker",
-		description:
-			"Web application designed to store, track, display and predict financial activity based on the user inputted financial behavior. After creating an account or logging form a existing one, users are presented with an always present monetary balance, interactive calendar of financial activity, graph renderings for showing income and outcome evolution. Users can create and keep track of specific interest items like: Monetary records, Savings jars, Financial goals and Investment plans.",
-		stack: [
-			{ id: 1, title: "DJANGO" },
-			{ id: 2, title: "BOOTSTRAP" },
-			{ id: 3, title: "POSTGRESQL" },
-			{ id: 4, title: "DATATABLES" },
-			{ id: 5, title: "FULLCALENDAR" },
-			{ id: 6, title: "ZINKCHART" },
-			{ id: 7, title: "HEROKU" },
-		],
 
-		url: "https://richestracker-personalproject.herokuapp.com/",
-		github: "https://github.com/Robert0B0/RichesTracker",
-		image: richestracker,
-		technical: {
-			title: "RichesTraker – general technical summary:",
-			description: [
-				{
-					id: 1,
-					p: "A web application for storing, tracking and evaluating monetary activities from daily to monthly use. ",
-				},
-				{
-					id: 2,
-					p: "The app is made with Django framework utilising PostgreSQL database. The project main application, where are the settings for database, debug, hosting settings and static files handling, also works with apps for each specific django model that holds its migrations, specific view functions, forms, templates and urls. ",
-				},
-				{
-					id: 3,
-					p: "A brief description of each app functionality: ",
-				},
-				{
-					id: 4,
-					p: "users app: managing users registrations and login, page authorization handling, host for home page, navbar about and bug-report template pages.",
-				},
-				{
-					id: 5,
-					p: "info app: hosting the calendar focus template and graph ilustration template",
-				},
-				{
-					id: 6,
-					p: "goals app: handling, creating and storing other actions for financial goals",
-				},
-				{
-					id: 7,
-					p: "investments app: holding investments plans with their setups and actions",
-				},
-				{
-					id: 8,
-					p: "savings app: having all the savings jars with their specific actions",
-				},
-				{
-					id: 9,
-					p: "records app: the core functionality of the app, storing all the monetary records created by the user and being used by all the complementary apps for different types of illustrations ",
-				},
-				{
-					id: 10,
-					p: "Complementary add-on apps: Bootstrap library, DataTables, FullCalendar, Zingchart. ",
-				},
-				{
-					id: 11,
-					p: "The app is published on heroku hosting service. ",
-				},
-			],
-			images: [
-				richestracker_tec1,
-				richestracker_tec2,
-				richestracker_tec3,
-				richestracker_tec4,
-			],
-		},
-	},
 	{
-		id: "3",
+		id: "4",
 		name: "Mess_Lite",
 		description:
-			"A web chat application that users, once registered and logged in, can choose with who to talk, send messages, see the latest message while keeping in touch with friends and acquaintances. Web app made with React as front-end and, as backend, working with Apollo server plus Graphql utilising MongoDB as database",
+			"A web chat application that users, once registered and logged in, can choose with who to talk, send messages, see the latest message while keeping in touch with friends and acquaintances. Web app made with React as front-end and, as backend, working with Apollo server plus Graphql utilizing MongoDB as database",
 		stack: [
 			{ id: 1, title: "React" },
 			{ id: 2, title: "React - Bootstrap" },
@@ -216,7 +262,7 @@ export const projects = [
 	},
 
 	{
-		id: "4",
+		id: "5",
 		name: "Compound Interest Simulator",
 		description:
 			"A Web application designed to set up, save and simulate different scenarios of investment plans for long term future projections and ilustrate different results generated from simple tweaks with profound outcomes.",
@@ -254,14 +300,14 @@ export const projects = [
 				},
 				{
 					id: 5,
-					p: "The back-end side of the app is hosted on heroku with graphql playground enabled for demonstrative purpuses, and the front-end React part is hosted on netlify.  ",
+					p: "The back-end side of the app is hosted on heroku with graphql playground enabled for demonstrative purposes, and the front-end React part is hosted on netlify.  ",
 				},
 			],
 			images: [CompInt_tec1, CompInt_tec2, CompInt_tec3, CompInt_tec4],
 		},
 	},
 	{
-		id: "5",
+		id: "6",
 		name: "Shopping list",
 		description:
 			"A simple Web shopping list with features like adding, striking and deleting shop items. Built with React front end and Apollo/Graphql plus MongoDB as backend ",
@@ -305,7 +351,7 @@ export const projects = [
 		},
 	},
 	{
-		id: "6",
+		id: "7",
 		name: "Color Generator",
 		description:
 			"A simple React Project for generating colors with different saturations based on hex code provided by the user. Displaying three rows with three distinct colors for side by side comparison. Any generated color can be copied to clipboard by clicking the desired color cell and hex code.",
@@ -322,7 +368,7 @@ export const projects = [
 			description: [
 				{
 					id: 1,
-					p: "A web app that ,after the user sets up the parameters, generates and illustrates three different palletes of colors from a root value. The colors are displayed side by side with differing saturation.",
+					p: "A web app that ,after the user sets up the parameters, generates and illustrates three different pallets of colors from a root value. The colors are displayed side by side with differing saturation.",
 				},
 				{
 					id: 2,
@@ -341,7 +387,7 @@ export const projects = [
 		},
 	},
 	{
-		id: "7",
+		id: "8",
 		name: "Simple Menu",
 		description:
 			"A simple React menu with dynamic updating feature of menu selection based on the presence ( or absence ) of certain food types that come from the outsourced loaded JSON data.",
@@ -377,7 +423,7 @@ export const projects = [
 		},
 	},
 	{
-		id: "8",
+		id: "9",
 		name: "Simple Chat",
 		description:
 			"A Chat App built in React with id generation at login and ability to connect to other users and chat in craete rooms with selecet users",
@@ -394,7 +440,7 @@ export const projects = [
 			description: [
 				{
 					id: 1,
-					p: "The main App is wrapped with two context proider components: ",
+					p: "The main App is wrapped with two context provider components: ",
 				},
 				{
 					id: 2,
@@ -421,7 +467,7 @@ export const projects = [
 		},
 	},
 	{
-		id: "9",
+		id: "11",
 		name: "Simple Sudoku",
 		description: "A simple Sudoku game made with React.js",
 		stack: [
@@ -443,7 +489,7 @@ export const projects = [
 				},
 				{
 					id: 2,
-					p: "Each cell component holds values for the coordonates in the sudoku table (or matrix) and values for its css styling based on its status, holding number and mouse hover or selected styling.",
+					p: "Each cell component holds values for the coordinates in the sudoku table (or matrix) and values for its css styling based on its status, holding number and mouse hover or selected styling.",
 				},
 				{
 					id: 3,
