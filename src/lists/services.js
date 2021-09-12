@@ -25,7 +25,7 @@ export default [
 			</span>
 		),
 		title: "web development",
-		text: `Full stack web development, designing, building and testing fully responsive and functional web sites. Focusing in React.js as front end coupled with Apollo server and GraphQl or Django REST as backend and working with MongoDB for database storage.`,
+		text: `Full stack web development, designing, building and testing fully responsive and functional web sites. Focusing in React.js as front end coupled with Apollo server awith GraphQl or ASP.NET Core as backend and working with MongoDB or MySQL for database storage.`,
 	},
 	{
 		id: 2,
@@ -37,12 +37,12 @@ export default [
 			</span>
 		),
 		title: "website deployment",
-		text: `Fast and easy deployment of any website to be accessible anytime and anywhere with help from hosting services like Heroku and/or Netlify that utilise code from Github for fast redeployments upon change.`,
+		text: `Fast and easy deployment of any website to be accessible anytime and anywhere with help from hosting services like Heroku and/or Netlify that use code from Github for fast redeployments upon change.`,
 	},
 	{
 		id: 3,
 		icon: <BsBraces className="service-icon" />,
 		title: "software development",
-		text: `Using programming knowledge, I'm able to learn, adapt and use any tools needed for the given circumstances and necessities, with intent to specialize but open anytime to learn and use new tools and technologies.`,
+		text: `Employing programming knowledge, I'm able to learn, adapt and use any tools needed for the given circumstances and necessities, with intent to specialize but open anytime to learn and use new tools and technologies.`,
 	},
 ];
