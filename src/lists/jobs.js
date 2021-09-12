@@ -2,7 +2,7 @@ export const jobs = [
 	{
 		id: 1,
 		company: "CURRENT EXPERIENCE:",
-		position: "Junior FullStack Developer",
+		position: "FrontEnd Developer",
 		date: "October 2020 - Present",
 		desc: [
 			{
@@ -18,12 +18,12 @@ export const jobs = [
 			{
 				id: 3,
 				name:
-					"Some of the major project are present below together with smaller but complex enough 'under the hood' for a proof of concept.",
+					"Some of the major projects are present below together altogether with smaller projects but complex enough 'under the hood' for a proof of concept.",
 			},
 			{
 				id: 4,
 				name:
-					"I choose the full stack approach of web development and currently I'm working with GraphQl with Apollo server (as backend) together with React.js (as frontend), coupled with MongoDB or PostgreSQL database.",
+					"I choose the full stack approach of web development and currently I'm working with APS.NET Core (as backend) together with React.js (as frontend), coupled with MongoDB or PostgreSQL database.",
 			},
 		],
 	},
