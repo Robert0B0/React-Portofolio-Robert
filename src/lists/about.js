@@ -1,4 +1,4 @@
-import pic from "../assets/about.png";
+import pic from "../assets/about-bg.png";
 export const about = {
 	title: "About me:",
 	info:
