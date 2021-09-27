@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
 import SocialLinks from "../lists/socialLinks";
-import hero from "../assets/hero5.png";
+import hero from "../assets/hero5-wb.png";
 
 function Hero() {
 	function refreshPage() {
