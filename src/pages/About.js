@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../components/Layout";
 import Title from "../components/Title";
-import { about } from "../assets/about-bg.png";
+import { about } from "../lists/about";
 
 function About() {
 	const { title, info, stack, image } = about;
